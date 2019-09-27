@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages="com.detouch")
-public class Proj2Application {
+public class Proj2Application{
 
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class Proj2Application {
 		
 		service=ctx.getBean("wish",WishmsgGeneratorService.class);
 		
-		System.out.println(service.generateWishMessage("LIPUN"));
+		System.out.println(service.generateWishMessage("SUBHAM"));
 	}
 
 }
